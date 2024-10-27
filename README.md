@@ -16,4 +16,4 @@ sudo snap install docker
 ```
 Para Windeos segui la documentacion sugerida en https://www.docker.com/
 
-
+3. Para simular un vehiculo en movimiento se cuenta con un script con nombre client.js que permitira hacer una simulacion de cmovimiento random para un vehiculo en especifico, este archivo se encuentra en la carpeta client y lo puedes ejecutar desde afuera del contenedor configurando el id del vehiculo unicamente
