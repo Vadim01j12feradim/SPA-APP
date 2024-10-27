@@ -10,10 +10,11 @@ Requerimientos
 ```
 sudo docker-compose up --build 
 ```
-2. En caso de que no se cuente con docker instalado se deve descargar desde linux con elsiguiente comando
+2. Una vez cargado abre en tu navegador en la direccion http://localhost:8081, se pasiente y espera a que cargue el proyecto puede llegar a tardar algunos segundos dependiendo de multiples factores.
+3. En caso de que no se cuente con docker instalado se deve descargar desde linux con elsiguiente comando
 ```
 sudo snap install docker
 ```
 Para Windeos segui la documentacion sugerida en https://www.docker.com/
 
-3. Para simular un vehiculo en movimiento se cuenta con un script con nombre client.js que permitira hacer una simulacion de cmovimiento random para un vehiculo en especifico, este archivo se encuentra en la carpeta client y lo puedes ejecutar desde afuera del contenedor configurando el id del vehiculo unicamente
+4. Para simular un vehiculo en movimiento se cuenta con un script con nombre client.js que permitira hacer una simulacion de cmovimiento random para un vehiculo en especifico, este archivo se encuentra en la carpeta client y lo puedes ejecutar desde afuera del contenedor configurando el id del vehiculo unicamente
