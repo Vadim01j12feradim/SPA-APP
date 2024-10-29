@@ -10,6 +10,7 @@ Requerimientos
 ```
 sudo docker-compose up --build 
 ```
+2. Procura tener los puertos necesarios libreas por ejemplo el 8081 para la App, el 3306 para mysql, el 3001 para el socket y finalmente el 3000 para la API.
 2. Una vez cargado abre en tu navegador en la direccion http://localhost:8081, se pasiente y espera a que cargue el proyecto puede llegar a tardar algunos segundos dependiendo de multiples factores.
 3. En caso de que no se cuente con docker instalado se deve descargar desde linux con elsiguiente comando
 ```
