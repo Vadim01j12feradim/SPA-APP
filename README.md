@@ -40,6 +40,21 @@ Para Windeos segui la documentacion sugerida en https://www.docker.com/
 ![Screenshot at 2024-10-29 15-18-56](https://github.com/user-attachments/assets/c7f240a0-061a-40d5-ab48-995640313a3b)
 * Sin coches.
 ![Screenshot at 2024-10-29 15-05-13](https://github.com/user-attachments/assets/6cc181b4-df03-441c-a601-17abd535de9f)
+* Responsive
+![Screenshot at 2024-10-29 16-18-56](https://github.com/user-attachments/assets/495b78eb-e4fc-4ac0-8947-1e08ee28914e)
+![Screenshot at 2024-10-29 16-19-40](https://github.com/user-attachments/assets/87bb1734-246e-4b63-8f50-76e145f04ebf)
+![Screenshot at 2024-10-29 16-19-45](https://github.com/user-attachments/assets/2d97717b-a09a-4916-9eb7-4e4bf731083d)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
