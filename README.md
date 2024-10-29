@@ -22,15 +22,21 @@ Para Windeos segui la documentacion sugerida en https://www.docker.com/
 
 # Vistas
 * Login
+![Screenshot at 2024-10-29 16-11-36](https://github.com/user-attachments/assets/c69f44bd-f762-41d7-a867-83b423ffe8ad)
 
 * Registro
+![Screenshot at 2024-10-29 15-19-32](https://github.com/user-attachments/assets/57a26583-ee07-4ee4-8ea4-6df940406833)
 
 * Dashboard.
+![Screenshot at 2024-10-29 15-19-21](https://github.com/user-attachments/assets/e6981fee-655b-404a-b69c-63292daa4989)
 
 * Eliminar
+![Screenshot at 2024-10-29 15-17-18](https://github.com/user-attachments/assets/f0fe7e08-0ba9-4777-878b-1cc6c6b921fc)
 
 * Actualizar
+![Screenshot at 2024-10-29 15-17-26](https://github.com/user-attachments/assets/7e640164-e052-4caf-945b-7ebdb9674745)
 
 * Agregar.
+![Screenshot at 2024-10-29 15-18-56](https://github.com/user-attachments/assets/c7f240a0-061a-40d5-ab48-995640313a3b)
 
 * 
