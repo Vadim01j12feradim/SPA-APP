@@ -45,6 +45,11 @@ Para Windeos segui la documentacion sugerida en https://www.docker.com/
 ![Screenshot at 2024-10-29 16-18-56](https://github.com/user-attachments/assets/495b78eb-e4fc-4ac0-8947-1e08ee28914e)
 ![Screenshot at 2024-10-29 16-19-40](https://github.com/user-attachments/assets/87bb1734-246e-4b63-8f50-76e145f04ebf)
 ![Screenshot at 2024-10-29 16-19-45](https://github.com/user-attachments/assets/2d97717b-a09a-4916-9eb7-4e4bf731083d)
+* Imagenes del DockerHub
+![Screenshot at 2024-10-29 16-10-37](https://github.com/user-attachments/assets/39e2c734-3b34-4a33-b594-4b4e9b74f3b8)
+* Versioens de las imagenes
+![Screenshot at 2024-10-29 16-10-46](https://github.com/user-attachments/assets/dfc6cfd7-4eb5-4f45-ab4f-dc9b2fb772c4)
+
 
 
 
