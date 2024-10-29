@@ -52,7 +52,18 @@ Para Windeos segui la documentacion sugerida en https://www.docker.com/
 
 
 
+# Construccion
 
+* En caso de que desee recrear las imagenes y correr el proyecto puede ejecutar el script RESET.sh con los comandos siguientes en donde en el piero da permisos y el segudno para ejecucion.
+  ```
+  sudo chmod +x RESET.sh
+  ```
+  y para ejecutar
+
+    ```
+    ./RESET.sh
+    ```
+  
 
 
 
