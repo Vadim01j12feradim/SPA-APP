@@ -38,5 +38,11 @@ Para Windeos segui la documentacion sugerida en https://www.docker.com/
 
 * Agregar.
 ![Screenshot at 2024-10-29 15-18-56](https://github.com/user-attachments/assets/c7f240a0-061a-40d5-ab48-995640313a3b)
+* Sin coches.
+![Screenshot at 2024-10-29 15-05-13](https://github.com/user-attachments/assets/6cc181b4-df03-441c-a601-17abd535de9f)
+
+
+
+  
 
 * 
