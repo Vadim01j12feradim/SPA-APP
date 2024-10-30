@@ -82,20 +82,3 @@ Responsive view across devices:
 ### 🔢 Versiones de las imágenes
 ![Versiones de las Imágenes Screenshot](https://github.com/user-attachments/assets/dfc6cfd7-4eb5-4f45-ab4f-dc9b2fb772c4)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-* 
