@@ -41,33 +41,34 @@ To download and launch this application, ensure you have the `docker-compose.yml
 
 4. Once loaded, open your browser at the address [http://localhost:8081](http://localhost:8081). Be patient and wait for the project to load; it may take a few seconds depending on multiple factors.
 
-5. Para simular un vehículo en movimiento, utiliza el script llamado `client.js`, que permite hacer una simulación de movimiento aleatorio para un vehículo específico. Este archivo se encuentra en la carpeta `Agent`, y puedes ejecutarlo desde fuera del contenedor configurando únicamente el **ID del vehículo** en el parámetro de `axios` con una petición GET.
+5. 5. To simulate a moving vehicle, use the script called `client.js`, which allows for a random movement simulation for a specific vehicle. This file is located in the `Agent` folder, and you can execute it from outside the container by configuring only the **vehicle ID** in the `axios` parameter with a GET request.
 
-6. La razón por la que se crearon varias imágenes y no solo una es debido a la **escalabilidad y organización**. Esto facilita el mantenimiento y futuras actualizaciones en caso de que el proyecto evolucione.
+6. The reason multiple images were created instead of just one is due to **scalability and organization**. This facilitates maintenance and future updates in case the project evolves.
 
-# 📸 Vistas
+# 📸 Views
 
-Explore las distintas vistas de la aplicación:
+Explore the different views of the application:
 
 ### 🔑 Login
 ![Login Screenshot](https://github.com/user-attachments/assets/c69f44bd-f762-41d7-a867-83b423ffe8ad)
 
-### 📝 Registro
+### 📝 Registration
 ![Registro Screenshot](https://github.com/user-attachments/assets/57a26583-ee07-4ee4-8ea4-6df940406833)
 
 ### 📊 Dashboard
 ![Dashboard Screenshot](https://github.com/user-attachments/assets/e6981fee-655b-404a-b69c-63292daa4989)
 
-### ❌ Eliminar
+### ❌ Eliminate
 ![Eliminar Screenshot](https://github.com/user-attachments/assets/f0fe7e08-0ba9-4777-878b-1cc6c6b921fc)
 
-### 🔄 Actualizar
+### 🔄 Update
 ![Actualizar Screenshot](https://github.com/user-attachments/assets/7e640164-e052-4caf-945b-7ebdb9674745)
 
-### ➕ Agregar
+### ➕ Add
 ![Agregar Screenshot](https://github.com/user-attachments/assets/c7f240a0-061a-40d5-ab48-995640313a3b)
 
-### 🚫 Sin coches
+### 🚫 No cars
+
 ![Sin Coches Screenshot](https://github.com/user-attachments/assets/6cc181b4-df03-441c-a601-17abd535de9f)
 
 ### 📱 Responsive
@@ -76,9 +77,9 @@ Responsive view across devices:
 - ![Responsive Screenshot 2](https://github.com/user-attachments/assets/87bb1734-246e-4b63-8f50-76e145f04ebf)
 - ![Responsive Screenshot 3](https://github.com/user-attachments/assets/2d97717b-a09a-4916-9eb7-4e4bf731083d)
 
-### 🐳 Imágenes de DockerHub
+### 🐳 DockerHub Images
 ![DockerHub Screenshot](https://github.com/user-attachments/assets/39e2c734-3b34-4a33-b594-4b4e9b74f3b8)
 
-### 🔢 Versiones de las imágenes
+### 🔢 Image versions
 ![Versiones de las Imágenes Screenshot](https://github.com/user-attachments/assets/dfc6cfd7-4eb5-4f45-ab4f-dc9b2fb772c4)
 
