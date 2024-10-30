@@ -9,13 +9,26 @@ Single Page Application (SPA) project with Dockerized deployment, designed for s
 ## ⚙️ Requirements
 
 To download and launch this application, ensure you have the `docker-compose.yml` file available in this repository. Follow these steps:
+  
+1. En caso de que no se cuente con Docker instalado, se debe descargar en Linux con el siguiente comando:
+   ```bash
+   sudo snap install docker
+   ```
+   Para **Windows**, sigue la documentación sugerida en [Docker.com](https://www.docker.com/).
 
-1. **Run Docker Compose**  
+2. Procura tener los puertos necesarios libres:
+
+- **8081** para la App
+- **3306** para MySQL
+- **3001** para el Socket
+- **3000** para la API
+  
+3. **Run Docker Compose**  
    Execute the following command in the directory containing `docker-compose.yml`:
    ```bash
    sudo docker-compose up --build 
    ```
-   Si deseas recrear las imágenes y correr el proyecto desde cero, puedes ejecutar el script `RESET.sh` siguiendo estos pasos:
+   Si deseas recrear las imágenes y correr el proyecto desde cero, puedes ejecutar el script `RESET.sh` siguiendo estos pasos, considera que borrara todos los volumes de docker asi como los contenedores actuales:
 
    Usa el siguiente comando para otorgar permisos de ejecución al script:
    ```bash
@@ -25,27 +38,12 @@ To download and launch this application, ensure you have the `docker-compose.yml
    ```
    ./RESET.sh
    ```
-  
-2. Procura tener los puertos necesarios libres:
 
-- **8081** para la App
-- **3306** para MySQL
-- **3001** para el Socket
-- **3000** para la API
+4. Una vez cargado, abre en tu navegador en la dirección [http://localhost:8081](http://localhost:8081). Ten paciencia y espera a que cargue el proyecto; puede tardar algunos segundos dependiendo de múltiples factores.
 
-3. Una vez cargado, abre en tu navegador en la dirección [http://localhost:8081](http://localhost:8081). Ten paciencia y espera a que cargue el proyecto; puede tardar algunos segundos dependiendo de múltiples factores.
+5. Para simular un vehículo en movimiento, utiliza el script llamado `client.js`, que permite hacer una simulación de movimiento aleatorio para un vehículo específico. Este archivo se encuentra en la carpeta `Agent`, y puedes ejecutarlo desde fuera del contenedor configurando únicamente el **ID del vehículo** en el parámetro de `axios` con una petición GET.
 
-4. En caso de que no se cuente con Docker instalado, se debe descargar en Linux con el siguiente comando:
-   ```bash
-   sudo snap install docker
-   ```
-
-
-5. Para **Windows**, sigue la documentación sugerida en [Docker.com](https://www.docker.com/).
-
-6. Para simular un vehículo en movimiento, utiliza el script llamado `client.js`, que permite hacer una simulación de movimiento aleatorio para un vehículo específico. Este archivo se encuentra en la carpeta `Agent`, y puedes ejecutarlo desde fuera del contenedor configurando únicamente el **ID del vehículo** en el parámetro de `axios` con una petición GET.
-
-7. La razón por la que se crearon varias imágenes y no solo una es debido a la **escalabilidad y organización**. Esto facilita el mantenimiento y futuras actualizaciones en caso de que el proyecto evolucione.
+6. La razón por la que se crearon varias imágenes y no solo una es debido a la **escalabilidad y organización**. Esto facilita el mantenimiento y futuras actualizaciones en caso de que el proyecto evolucione.
 
 # 📸 Vistas
 
