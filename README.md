@@ -15,11 +15,19 @@ To download and launch this application, ensure you have the `docker-compose.yml
    ```bash
    sudo docker-compose up --build 
    ```
-2. Procura tener los puertos necesarios libreas por ejemplo el 8081 para la App, el 3306 para mysql, el 3001 para el socket y finalmente el 3000 para la API.
-2. Una vez cargado abre en tu navegador en la direccion http://localhost:8081, se pasiente y espera a que cargue el proyecto puede llegar a tardar algunos segundos dependiendo de multiples factores.
-3. En caso de que no se cuente con docker instalado se deve descargar desde linux con elsiguiente comando
-```
-sudo snap install docker
+Procura tener los puertos necesarios libres:
+
+- **8081** para la App
+- **3306** para MySQL
+- **3001** para el Socket
+- **3000** para la API
+
+Una vez cargado, abre en tu navegador en la dirección [http://localhost:8081](http://localhost:8081). Ten paciencia y espera a que cargue el proyecto; puede tardar algunos segundos dependiendo de múltiples factores.
+
+En caso de que no se cuente con Docker instalado, se debe descargar en Linux con el siguiente comando:
+
+```bash
+   sudo snap install docker
 ```
 Para Windeos segui la documentacion sugerida en https://www.docker.com/
 
