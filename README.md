@@ -1,14 +1,19 @@
-# SPA-APP
+# 🌐 SPA-APP
 
-Requerimientos
-![Screenshot at 2024-10-27 12-19-39](https://github.com/user-attachments/assets/7448c3d5-4048-4377-84a6-6d862d86ae06)
+![App Screenshot](https://github.com/user-attachments/assets/7448c3d5-4048-4377-84a6-6d862d86ae06)
 
+Single Page Application (SPA) project with Dockerized deployment, designed for scalability and efficient organization. This README provides step-by-step instructions for setting up, running, and simulating the app with Docker.
 
+---
 
+## ⚙️ Requirements
 
-1. Para descargar la aplicacion solo es necesario contar con el archivo docker-composer.yml que se encuentra aqui en el repositorio y ejecutar el siguiente comando en el[ directorio en donde se encuentra el archivo docker-composer.yml.
-```
-sudo docker-compose up --build 
+To download and launch this application, ensure you have the `docker-compose.yml` file available in this repository. Follow these steps:
+
+1. **Run Docker Compose**  
+   Execute the following command in the directory containing `docker-compose.yml`:
+   ```bash
+   sudo docker-compose up --build 
 ```
 2. Procura tener los puertos necesarios libreas por ejemplo el 8081 para la App, el 3306 para mysql, el 3001 para el socket y finalmente el 3000 para la API.
 2. Una vez cargado abre en tu navegador en la direccion http://localhost:8081, se pasiente y espera a que cargue el proyecto puede llegar a tardar algunos segundos dependiendo de multiples factores.
