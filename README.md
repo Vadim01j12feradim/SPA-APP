@@ -15,6 +15,18 @@ To download and launch this application, ensure you have the `docker-compose.yml
    ```bash
    sudo docker-compose up --build 
    ```
+Si deseas recrear las imágenes y correr el proyecto desde cero, puedes ejecutar el script `RESET.sh` siguiendo estos pasos:
+
+1.1 **Dar permisos de ejecución**  
+   Usa el siguiente comando para otorgar permisos de ejecución al script:
+   ```bash
+   sudo chmod +x RESET.sh
+
+
+   
+
+
+  
 2. Procura tener los puertos necesarios libres:
 
 - **8081** para la App
@@ -75,18 +87,7 @@ Responsive view across devices:
 
 
 
-# Construccion
 
-* En caso de que desee recrear las imagenes y correr el proyecto puede ejecutar el script RESET.sh con los comandos siguientes en donde en el piero da permisos y el segudno para ejecucion.
-  ```
-  sudo chmod +x RESET.sh
-  ```
-  y para ejecutar
-
-    ```
-    ./RESET.sh
-    ```
-  
 
 
 
