@@ -10,18 +10,18 @@ Single Page Application (SPA) project with Dockerized deployment, designed for s
 
 To download and launch this application, ensure you have the `docker-compose.yml` file available in this repository. Follow these steps:
   
-1. En caso de que no se cuente con Docker instalado, se debe descargar en Linux con el siguiente comando:
+1. If you do not have Docker installed, you can download it on Linux using the following command:
    ```bash
    sudo snap install docker
    ```
-   Para **Windows**, sigue la documentación sugerida en [Docker.com](https://www.docker.com/).
+   For **Windows**, follow the documentation suggested on [Docker.com](https://www.docker.com/).
 
-2. Procura tener los puertos necesarios libres:
+2. Make sure to have the necessary ports available:
 
-- **8081** para la App
-- **3306** para MySQL
-- **3001** para el Socket
-- **3000** para la API
+- **8081** for the App
+- **3306** for MySQL
+- **3001** for the Socket
+- **3000** for the API
   
 3. **Run Docker Compose**  
    Execute the following command in the directory containing `docker-compose.yml`:
