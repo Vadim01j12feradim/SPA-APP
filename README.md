@@ -28,18 +28,18 @@ To download and launch this application, ensure you have the `docker-compose.yml
    ```bash
    sudo docker-compose up --build 
    ```
-   Si deseas recrear las imágenes y correr el proyecto desde cero, puedes ejecutar el script `RESET.sh` siguiendo estos pasos, considera que borrara todos los volumes de docker asi como los contenedores actuales:
+   If you want to recreate the images and run the project from scratch, you can execute the script `RESET.sh` by following these steps. Note that it will delete all Docker volumes as well as the current containers:
 
-   Usa el siguiente comando para otorgar permisos de ejecución al script:
+   Use the following command to grant execution permissions to the script:
    ```bash
    sudo chmod +x RESET.sh
    ```
-   y para ejecutar
+   And to execute it:
    ```
    ./RESET.sh
    ```
 
-4. Una vez cargado, abre en tu navegador en la dirección [http://localhost:8081](http://localhost:8081). Ten paciencia y espera a que cargue el proyecto; puede tardar algunos segundos dependiendo de múltiples factores.
+4. Once loaded, open your browser at the address [http://localhost:8081](http://localhost:8081). Be patient and wait for the project to load; it may take a few seconds depending on multiple factors.
 
 5. Para simular un vehículo en movimiento, utiliza el script llamado `client.js`, que permite hacer una simulación de movimiento aleatorio para un vehículo específico. Este archivo se encuentra en la carpeta `Agent`, y puedes ejecutarlo desde fuera del contenedor configurando únicamente el **ID del vehículo** en el parámetro de `axios` con una petición GET.
 
