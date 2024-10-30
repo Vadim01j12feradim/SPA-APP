@@ -36,35 +36,42 @@ To download and launch this application, ensure you have the `docker-compose.yml
 
 7. La razón por la que se crearon varias imágenes y no solo una es debido a la **escalabilidad y organización**. Esto facilita el mantenimiento y futuras actualizaciones en caso de que el proyecto evolucione.
 
+# 📸 Vistas
 
-# Vistas
-* Login
-![Screenshot at 2024-10-29 16-11-36](https://github.com/user-attachments/assets/c69f44bd-f762-41d7-a867-83b423ffe8ad)
+Explore las distintas vistas de la aplicación:
 
-* Registro
-![Screenshot at 2024-10-29 15-19-32](https://github.com/user-attachments/assets/57a26583-ee07-4ee4-8ea4-6df940406833)
+### 🔑 Login
+![Login Screenshot](https://github.com/user-attachments/assets/c69f44bd-f762-41d7-a867-83b423ffe8ad)
 
-* Dashboard.
-![Screenshot at 2024-10-29 15-19-21](https://github.com/user-attachments/assets/e6981fee-655b-404a-b69c-63292daa4989)
+### 📝 Registro
+![Registro Screenshot](https://github.com/user-attachments/assets/57a26583-ee07-4ee4-8ea4-6df940406833)
 
-* Eliminar
-![Screenshot at 2024-10-29 15-17-18](https://github.com/user-attachments/assets/f0fe7e08-0ba9-4777-878b-1cc6c6b921fc)
+### 📊 Dashboard
+![Dashboard Screenshot](https://github.com/user-attachments/assets/e6981fee-655b-404a-b69c-63292daa4989)
 
-* Actualizar
-![Screenshot at 2024-10-29 15-17-26](https://github.com/user-attachments/assets/7e640164-e052-4caf-945b-7ebdb9674745)
+### ❌ Eliminar
+![Eliminar Screenshot](https://github.com/user-attachments/assets/f0fe7e08-0ba9-4777-878b-1cc6c6b921fc)
 
-* Agregar.
-![Screenshot at 2024-10-29 15-18-56](https://github.com/user-attachments/assets/c7f240a0-061a-40d5-ab48-995640313a3b)
-* Sin coches.
-![Screenshot at 2024-10-29 15-05-13](https://github.com/user-attachments/assets/6cc181b4-df03-441c-a601-17abd535de9f)
-* Responsive
-![Screenshot at 2024-10-29 16-18-56](https://github.com/user-attachments/assets/495b78eb-e4fc-4ac0-8947-1e08ee28914e)
-![Screenshot at 2024-10-29 16-19-40](https://github.com/user-attachments/assets/87bb1734-246e-4b63-8f50-76e145f04ebf)
-![Screenshot at 2024-10-29 16-19-45](https://github.com/user-attachments/assets/2d97717b-a09a-4916-9eb7-4e4bf731083d)
-* Imagenes del DockerHub
-![Screenshot at 2024-10-29 16-10-37](https://github.com/user-attachments/assets/39e2c734-3b34-4a33-b594-4b4e9b74f3b8)
-* Versioens de las imagenes
-![Screenshot at 2024-10-29 16-10-46](https://github.com/user-attachments/assets/dfc6cfd7-4eb5-4f45-ab4f-dc9b2fb772c4)
+### 🔄 Actualizar
+![Actualizar Screenshot](https://github.com/user-attachments/assets/7e640164-e052-4caf-945b-7ebdb9674745)
+
+### ➕ Agregar
+![Agregar Screenshot](https://github.com/user-attachments/assets/c7f240a0-061a-40d5-ab48-995640313a3b)
+
+### 🚫 Sin coches
+![Sin Coches Screenshot](https://github.com/user-attachments/assets/6cc181b4-df03-441c-a601-17abd535de9f)
+
+### 📱 Responsive
+Responsive view across devices:
+- ![Responsive Screenshot 1](https://github.com/user-attachments/assets/495b78eb-e4fc-4ac0-8947-1e08ee28914e)
+- ![Responsive Screenshot 2](https://github.com/user-attachments/assets/87bb1734-246e-4b63-8f50-76e145f04ebf)
+- ![Responsive Screenshot 3](https://github.com/user-attachments/assets/2d97717b-a09a-4916-9eb7-4e4bf731083d)
+
+### 🐳 Imágenes de DockerHub
+![DockerHub Screenshot](https://github.com/user-attachments/assets/39e2c734-3b34-4a33-b594-4b4e9b74f3b8)
+
+### 🔢 Versiones de las imágenes
+![Versiones de las Imágenes Screenshot](https://github.com/user-attachments/assets/dfc6cfd7-4eb5-4f45-ab4f-dc9b2fb772c4)
 
 
 
