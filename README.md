@@ -26,9 +26,9 @@ Una vez cargado, abre en tu navegador en la dirección [http://localhost:8081](h
 
 En caso de que no se cuente con Docker instalado, se debe descargar en Linux con el siguiente comando:
 
-```bash
+   ```bash
    sudo snap install docker
-```
+   ```
 Para Windeos segui la documentacion sugerida en https://www.docker.com/
 
 4. Para simular un vehiculo en movimiento se cuenta con un script con nombre client.js que permitira hacer una simulacion de cmovimiento random para un vehiculo en especifico, este archivo se encuentra en la carpeta Agent y lo puedes ejecutar desde afuera del contenedor configurando el id del vehiculo unicamente en el parametro del axios con get.
