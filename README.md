@@ -21,11 +21,7 @@ Si deseas recrear las imágenes y correr el proyecto desde cero, puedes ejecutar
    Usa el siguiente comando para otorgar permisos de ejecución al script:
    ```bash
    sudo chmod +x RESET.sh
-
-
-   
-
-
+   ```
   
 2. Procura tener los puertos necesarios libres:
 
