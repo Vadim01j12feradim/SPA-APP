@@ -22,6 +22,10 @@ Si deseas recrear las imágenes y correr el proyecto desde cero, puedes ejecutar
    ```bash
    sudo chmod +x RESET.sh
    ```
+  y para ejecutar
+   ```
+   ./RESET.sh
+   ```
   
 2. Procura tener los puertos necesarios libres:
 
