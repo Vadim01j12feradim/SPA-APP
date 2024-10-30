@@ -28,10 +28,14 @@ To download and launch this application, ensure you have the `docker-compose.yml
    ```bash
    sudo snap install docker
    ```
-Para Windeos segui la documentacion sugerida en https://www.docker.com/
 
-4. Para simular un vehiculo en movimiento se cuenta con un script con nombre client.js que permitira hacer una simulacion de cmovimiento random para un vehiculo en especifico, este archivo se encuentra en la carpeta Agent y lo puedes ejecutar desde afuera del contenedor configurando el id del vehiculo unicamente en el parametro del axios con get.
-5. La razon por la que se crearon varias imagenes y no solo una es debido a la escalabilidad y organizacion ya que esi es mas facil dar mantenimiento en actualizaciones futuras en el caso de que fuese un proyecto real.
+
+5. Para **Windows**, sigue la documentación sugerida en [Docker.com](https://www.docker.com/).
+
+6. Para simular un vehículo en movimiento, utiliza el script llamado `client.js`, que permite hacer una simulación de movimiento aleatorio para un vehículo específico. Este archivo se encuentra en la carpeta `Agent`, y puedes ejecutarlo desde fuera del contenedor configurando únicamente el **ID del vehículo** en el parámetro de `axios` con una petición GET.
+
+7. La razón por la que se crearon varias imágenes y no solo una es debido a la **escalabilidad y organización**. Esto facilita el mantenimiento y futuras actualizaciones en caso de que el proyecto evolucione.
+
 
 # Vistas
 * Login
