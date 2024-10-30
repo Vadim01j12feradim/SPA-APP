@@ -15,14 +15,13 @@ To download and launch this application, ensure you have the `docker-compose.yml
    ```bash
    sudo docker-compose up --build 
    ```
-Si deseas recrear las imágenes y correr el proyecto desde cero, puedes ejecutar el script `RESET.sh` siguiendo estos pasos:
+   Si deseas recrear las imágenes y correr el proyecto desde cero, puedes ejecutar el script `RESET.sh` siguiendo estos pasos:
 
-1.1 **Dar permisos de ejecución**  
    Usa el siguiente comando para otorgar permisos de ejecución al script:
    ```bash
    sudo chmod +x RESET.sh
    ```
-  y para ejecutar
+   y para ejecutar
    ```
    ./RESET.sh
    ```
